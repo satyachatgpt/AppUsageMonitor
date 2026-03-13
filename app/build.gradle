@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.appusage.monitor'
-    compileSdk 35
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.appusage.monitor"
         minSdk 26
-        targetSdk 35
+        targetSdk 34
         versionCode 1
         versionName "1.0"
     }
@@ -46,5 +46,4 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.8.4'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
-    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 }
